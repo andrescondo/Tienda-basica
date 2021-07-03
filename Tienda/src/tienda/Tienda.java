@@ -5,9 +5,11 @@
  */
 package tienda;
 
+import java.util.Scanner;
+
 /**
  *
- * @author Liss
+ * @author AndresCondo @andreescondo
  */
 public class Tienda {
 
@@ -16,6 +18,15 @@ public class Tienda {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        String name;
+        
+        System.out.println("Ingresa un nombre");
+        
+        name = sc.next();
+        
+        System.out.println(name);
+        
     }
     
 }
