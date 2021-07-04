@@ -23,8 +23,9 @@ public class Tienda {
         Scanner sc = new Scanner(System.in);//variable para ingreso por teclado
         
         Products product = new Products();//comunicacion con otro archivo del proyecto
+        Products p = new Products("Carlos", 34.5);
         
-        System.out.println(product);
+        System.out.println(p);
     }
     
 }
