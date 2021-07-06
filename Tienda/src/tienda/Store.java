@@ -21,6 +21,8 @@ public class Store {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);//variable para ingreso por teclado
+//        clearConsole cc; TESTEARLO DESPUES
+
 
         boolean exit = true;
         
@@ -36,9 +38,11 @@ public class Store {
             switch(option){
                 case "1":
                     System.out.println("Opcion uno");
+                    market m = new market();
                     break;
                 case "2":
                     System.out.println("Opcion dos");
+              
                     break;
                     
                 case "4":
