@@ -15,23 +15,25 @@ public class Products {
     private int amount;
     private int id;
     
-    public  Products(){
-        System.out.println("Productos");
+    //En caso de llamar solo el metodos, muestra mensaje
+    public  Products(){ 
+        System.out.println("Vacio");
     }
     
+    //En caso de que se envian los datos, estos son asignados a las variables correspondientes
     public Products(String n, double p, int a, int i){
         this.name = n;
         this.price = p;
         this.amount = a;
         this.id = i;
-        
-//NOTA: CUANDO ES SET, SIEMPRE SE USA VOID  
-// CUANDO ES GET, DEPENDE DEL TIPO DE VARIABLE
     }
     
+    //NOTA: CUANDO ES SET, SIEMPRE SE USA VOID  
+    // CUANDO ES GET, DEPENDE DEL TIPO DE VARIABLE
     public String getName(){
         return name;
     }
+    
     public void setName(String name){
         this.name = name;
     }
